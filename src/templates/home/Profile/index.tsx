@@ -18,7 +18,7 @@ export function Profile() {
         <div className="text-l font-poppins">Software Engineer</div>
         <div className="py-4 md:py-7 space-y-2 md:space-y-4">
           <hr className="w-14" />
-          <div className="text-justify ">
+          <div className="text-justify text-textGray text-p2 md:text-p1">
             I'm a person who has a keen interest in the design layout. I think
             presenting an attractive design is a matter of concern in developing
             a branding of products. To creates a good design, I focus on proper
