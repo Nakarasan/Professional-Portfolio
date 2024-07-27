@@ -19,12 +19,12 @@ export function Profile() {
         <div className="py-4 md:py-7 space-y-2 md:space-y-4">
           <hr className="w-14" />
           <div className="text-justify text-textGray text-p2 md:text-p1">
-            I'm a person who has a keen interest in the design layout. I think
-            presenting an attractive design is a matter of concern in developing
-            a branding of products. To creates a good design, I focus on proper
-            composition and visual decoration details in order to make it more
-            professional. For the time being, I’m developing the skill for
-            acquiring the UI/UX design for dynamic application and web
+            I&apos;m a person who has a keen interest in the design layout. I
+            think presenting an attractive design is a matter of concern in
+            developing a branding of products. To creates a good design, I focus
+            on proper composition and visual decoration details in order to make
+            it more professional. For the time being, I&apos;m developing the
+            skill for acquiring the UI/UX design for dynamic application and web
             development.
           </div>
         </div>

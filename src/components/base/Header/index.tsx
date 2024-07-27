@@ -22,7 +22,7 @@ export default function Header() {
     >
       <div className="flex items-center h-12 px-8 md:px-16 justify-between fixed bg-bgColor text-white w-full max-w-[1600px]">
         {open && <Menu setOpen={() => setOpen(false)} />}
-        <div>Kara's Portfolio</div>
+        <div>Kara&apos;s Portfolio</div>
         <div
           className="block md:hidden"
           onClick={() => {
