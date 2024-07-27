@@ -26,7 +26,7 @@ export default function Button(props: IButtonProps) {
   return (
     <button
       type={props.type}
-      className={`bg-[#7456FF] text-[14px] md:text-[16px] font-poppinsMedium px-4 md:px-6 py-[6px] md:py-2 rounded-lg tracking-wider
+      className={`bg-buttonColor text-p3 sm:text-p2 md:text-p1 font-poppinsMedium px-4 md:px-6 py-[6px] md:py-2 rounded-lg tracking-wider
           ${props.className ? props.className : ""}
         `}
       onClick={props.onClick}
