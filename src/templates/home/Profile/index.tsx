@@ -7,7 +7,7 @@ import linkedin from "@/assets/images/profile/linkedin.svg";
 import Image from "next/image";
 import { Button } from "@/components/shared";
 
-export default function Profile() {
+export function Profile() {
   return (
     <div className="flex flex-col lg:flex-row gap-8">
       <div className="lg:basis-1/2 md:space-y-1 ">
