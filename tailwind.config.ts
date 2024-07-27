@@ -14,7 +14,8 @@ const config: Config = {
         xs: "350px",
       },
       colors: {
-        bgcolor: "#060021",
+        bgColor: "#060021",
+        buttonColor: "#7456FF",
       },
 
       fontFamily: {
@@ -27,9 +28,9 @@ const config: Config = {
         h1: "32px",
         h2: "24px",
         h3: "20px",
-        p1: "13px",
-        p2: "12px",
-        p3: "11px",
+        p1: "16px",
+        p2: "14px",
+        p3: "12px",
       },
     },
   },
