@@ -20,7 +20,7 @@ export default function Header() {
         } as any
       }
     >
-      <div className="flex items-center h-12 px-8 md:px-16 justify-between fixed bg-[#060021] text-white w-full max-w-[1600px]">
+      <div className="flex items-center h-12 px-8 md:px-16 justify-between fixed bg-bgColor text-white w-full max-w-[1600px]">
         {open && <Menu setOpen={() => setOpen(false)} />}
         <div>Kara's Portfolio</div>
         <div
