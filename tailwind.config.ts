@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         bgColor: "#060021",
         buttonColor: "#7456FF",
+        textGray: "#dadada",
       },
 
       fontFamily: {
