@@ -40,7 +40,7 @@ export function Profile() {
           className="h-[30vw] min-h-[14rem] max-h-[22rem] lg:mr-10"
         />
         <div className="flex items-center gap-4 lg:mr-8">
-          <div className="font-poppinsMedium">Fine me on</div>
+          <div className="font-poppinsMedium text-gray-400">Find me on</div>
           <Image
             src={facebook}
             alt="facebook"
