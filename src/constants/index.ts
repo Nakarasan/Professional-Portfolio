@@ -3,11 +3,19 @@ import pro1 from "@/assets/images/projects/scl.svg";
 import pro2 from "@/assets/images/projects/Ecommerce.svg";
 import pro3 from "@/assets/images/projects/speedHRM.svg";
 
-// why hire me images
+//why hire me images
 import workaholic from "@/assets/images/hire/workaholic.svg";
 import communicative from "@/assets/images/hire/communicative.svg";
 import cooperative from "@/assets/images/hire/cooperative.svg";
 import perfectionist from "@/assets/images/hire/perfectionist.svg";
+
+//skill images
+import html from "@/assets/images/skills/html.svg";
+import css from "@/assets/images/skills/css.svg";
+import js from "@/assets/images/skills/js.svg";
+import tailwind from "@/assets/images/skills/tailwind.svg";
+import react from "@/assets/images/skills/react.svg";
+import nextjs from "@/assets/images/skills/nextjs.svg";
 
 export interface menuProps {
   setOpen: any;
@@ -74,5 +82,27 @@ export const hireMeDetails = [
     image: perfectionist,
     description:
       "I have a strong intuition. I have remained consistent with high quality standards to present a most worthy result.",
+  },
+];
+
+//skills
+export const skillImages = [
+  {
+    image: react,
+  },
+  {
+    image: tailwind,
+  },
+  {
+    image: nextjs,
+  },
+  {
+    image: js,
+  },
+  {
+    image: html,
+  },
+  {
+    image: css,
   },
 ];
