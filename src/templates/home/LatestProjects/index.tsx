@@ -5,11 +5,10 @@ import { latestProjects } from "@/constants";
 
 export function LatestProjects() {
   return (
-    <div className="flex flex-col items-center gap-8">
+    <div className="flex flex-col items-center gap-8 xl:gap-12">
       <div className="text-h3 md:text-h2 lg:text-h1 font-poppinsSemiBold tracking-wider">
         Latest Projects
       </div>
-
       {latestProjects.map((project: any, key: any) => (
         <div
           className="sm:h-[7rem] md:h-[10rem] sm:bg-[#141430] w-full xl:w-[70%] sm:p-6 rounded-lg flex flex-col  sm:flex-row  sm:justify-between gap-5 items-center"

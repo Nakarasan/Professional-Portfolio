@@ -2,7 +2,7 @@ import React from "react";
 import { hireMeDetails } from "@/constants";
 import Image from "next/image";
 
-export default function WhyHireMe() {
+export function WhyHireMe() {
   return (
     <div className="space-y-8 md:space-y-12">
       <div className="text-h3 md:text-h2 lg:text-h1 font-poppinsSemiBold tracking-wider text-center">
