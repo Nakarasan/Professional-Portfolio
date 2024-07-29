@@ -46,6 +46,7 @@ export function Profile() {
               alt={media?.image}
               quality={100}
               className="h-8 md:h-12 w-8 md:w-12"
+              key={key}
             />
           ))}
         </div>
