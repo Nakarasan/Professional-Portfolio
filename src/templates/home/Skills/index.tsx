@@ -16,7 +16,7 @@ export function Skills() {
             src={skill?.image}
             alt={skill?.image}
             quality={100}
-            className="w-[11%] md:w-[10%]"
+            className="w-[11vw] md:w-[10vw]"
             key={key}
           />
         ))}
