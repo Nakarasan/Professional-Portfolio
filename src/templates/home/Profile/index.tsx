@@ -1,11 +1,9 @@
+"use client";
 import React from "react";
 import profile from "@/assets/images/profile/profile.svg";
-import facebook from "@/assets/images/profile/facebook.svg";
-import instagram from "@/assets/images/profile/instagram.svg";
-import whatsapp from "@/assets/images/profile/whatsapp.svg";
-import linkedin from "@/assets/images/profile/linkedin.svg";
 import Image from "next/image";
 import { Button } from "@/components/shared";
+import { socialMediaImages } from "@/constants";
 
 export function Profile() {
   return (
@@ -37,30 +35,19 @@ export function Profile() {
         <Image
           src={profile}
           alt="profile"
+          quality={100}
           className="h-[30vw] min-h-[14rem] max-h-[22rem] lg:mr-10"
         />
         <div className="flex items-center gap-4 lg:mr-8">
           <div className="font-poppinsMedium text-gray-400">Find me on</div>
-          <Image
-            src={facebook}
-            alt="facebook"
-            className="h-8 md:h-12 w-8 md:w-12"
-          />
-          <Image
-            src={instagram}
-            alt="instagram"
-            className="h-8 md:h-12 w-8 md:w-12"
-          />
-          <Image
-            src={whatsapp}
-            alt="whatsapp"
-            className="h-8 md:h-12 w-8 md:w-12"
-          />
-          <Image
-            src={linkedin}
-            alt="linkedin"
-            className="h-8 md:h-12 w-8 md:w-12"
-          />
+          {socialMediaImages.map((media: any, key: any) => (
+            <Image
+              src={media?.image}
+              alt={media?.image}
+              quality={100}
+              className="h-8 md:h-12 w-8 md:w-12"
+            />
+          ))}
         </div>
       </div>
     </div>

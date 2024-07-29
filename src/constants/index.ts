@@ -1,3 +1,9 @@
+//social media images
+import facebook from "@/assets/images/profile/facebook.svg";
+import instagram from "@/assets/images/profile/instagram.svg";
+import whatsapp from "@/assets/images/profile/whatsapp.svg";
+import linkedin from "@/assets/images/profile/linkedin.svg";
+
 //latest project images
 import pro1 from "@/assets/images/projects/scl.svg";
 import pro2 from "@/assets/images/projects/Ecommerce.svg";
@@ -38,6 +44,22 @@ export const menuItems = [
   {
     name: "Contact Us",
     to: "/contact-us",
+  },
+];
+
+//profile social media contents
+export const socialMediaImages = [
+  {
+    image: facebook,
+  },
+  {
+    image: instagram,
+  },
+  {
+    image: whatsapp,
+  },
+  {
+    image: linkedin,
   },
 ];
 
