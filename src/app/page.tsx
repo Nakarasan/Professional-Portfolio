@@ -1,13 +1,12 @@
-import { LatestProjects } from "@/templates/home";
-import { Profile } from "@/templates/home/Profile";
-import WhyHireMe from "@/templates/home/WhyHireMe";
+import { Profile, LatestProjects, Skills, WhyHireMe } from "@/templates/home";
 
 export default function Home() {
   return (
-    <div className="space-y-10">
+    <div className="space-y-10 xl:space-y-28">
       <Profile />
       <LatestProjects />
       <WhyHireMe />
+      <Skills />
     </div>
   );
 }
