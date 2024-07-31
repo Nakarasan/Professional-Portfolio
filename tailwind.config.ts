@@ -8,13 +8,14 @@ const config: Config = {
     "./src/layout/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/templates/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  // 060021
   theme: {
     extend: {
       screens: {
         xs: "350px",
       },
       colors: {
-        bgColor: "#060021",
+        bgColor: "#000000",
         buttonColor: "#7456FF",
         textGray: "#dadada",
       },
