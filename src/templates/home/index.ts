@@ -1,4 +1,4 @@
 export * from "./Profile";
-export * from "./LatestProjects";
+export * from "./Projects";
 export * from "./WhyHireMe";
 export * from "./Skills";
