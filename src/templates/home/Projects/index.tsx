@@ -5,7 +5,7 @@ import { latestProjects } from "@/constants";
 
 export function LatestProjects() {
   return (
-    <div className="flex flex-col items-center gap-8 xl:gap-12">
+    <div className="flex flex-col items-center gap-6 xl:gap-12">
       <div className="text-h3 md:text-h2 lg:text-h1 font-poppinsSemiBold tracking-wider">
         Projects
       </div>
