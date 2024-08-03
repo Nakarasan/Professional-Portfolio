@@ -14,12 +14,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="text-md bg-bgColor text-white flex flex-col items-center w-full">
+      <body className="text-md bg-gradient-to-r from-[#08061b] to-[#060513] text-white flex flex-col items-center w-full">
         <Header />
-        <div className="pt-16 sm:pt-20 px-8 md:px-16 max-w-[1600px]  pb-[5rem]">
+        <div className="pt-16 sm:pt-20 md:pt-40 px-8 md:px-16 max-w-[1600px]  pb-[5rem]">
           {children}
         </div>
       </body>
     </html>
   );
 }
+// 130F40 08061b
