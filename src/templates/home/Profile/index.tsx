@@ -8,7 +8,7 @@ import { socialMediaImages } from "@/constants";
 export function Profile() {
   return (
     <div className="flex flex-col lg:flex-row gap-8">
-      <div className="lg:basis-1/2 md:space-y-1 ">
+      <div className="lg:basis-1/2 md:space-y-1 md:pt-8">
         <div className="text-2xl md:text-4xl font-poppins">Hello Buds!</div>
         <div className="text-2xl md:text-4xl font-poppins">
           I am <span className="text-[#7456FF]"> Krishnavel Nakarasan</span>
